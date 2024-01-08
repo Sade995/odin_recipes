@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titulo,
+.titulo2,
+.titulo3{
+    color:pink;
+    font-weight: bolder;
+    font-family: fantasy;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 2px 1px black;
+}
+h1 {
+    text-align: center;
+    color: rgb(216, 27, 216);
+    font-size: 28px;
+    font-weight: 700;
+}
+.subt{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(234, 145, 11);
+    font-weight: bold;
+} 
+.instrucciones{
+    text-align: justify;
+
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+*{
+    border: 2px solid red;
+}
