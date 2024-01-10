@@ -11,8 +11,6 @@ body{
     font-size: 40px;
     letter-spacing: 4px;
     text-align: center;
-    margin: 0;
-    padding: 20px 0;
     text-shadow: 3px 2px 1px black;
 }
 h1 {
@@ -36,6 +34,13 @@ img{
     display: block;
     margin: 0 auto;
 }
-*{
-    border: 2px solid red;
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
